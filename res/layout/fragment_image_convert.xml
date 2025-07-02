@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_image_convert_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:paddingLeft="18.0dip" android:paddingRight="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:paddingHorizontal="18.0dip">
+        <TextView android:textSize="@dimen/text_size_big" android:textColor="@color/color_000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/uniform_scaling" android:layout_centerVertical="true" />
+        <androidx.appcompat.widget.SwitchCompat android:id="@id/scale_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:thumb="@drawable/switch_thumb" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:track="@drawable/switch_track_selector" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:paddingLeft="18.0dip" android:paddingRight="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:paddingHorizontal="18.0dip">
+        <TextView android:textSize="@dimen/text_size_big" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/intensity" />
+        <SeekBar android:id="@id/seek_bar" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:maxHeight="6.0dip" android:max="100" android:progress="50" android:layout_weight="1.0" android:progressTint="@color/color_00A3C8" android:progressBackgroundTint="#ffe3e3e3" android:thumbTint="@color/color_00A3C8" android:min="0" android:layout_marginHorizontal="10.0dip" />
+    </LinearLayout>
+</LinearLayout>

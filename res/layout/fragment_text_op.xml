@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_text_op_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="30.0dip" app:tabGravity="fill" app:tabIndicatorColor="@color/color_00A3C8" app:tabIndicatorFullWidth="false" app:tabIndicatorHeight="2.0dip" app:tabMinWidth="30.0dip" app:tabMode="scrollable" app:tabPaddingBottom="0.0dip" app:tabPaddingEnd="20.0dip" app:tabPaddingStart="20.0dip" app:tabPaddingTop="0.0dip" app:tabRippleColor="@android:color/transparent" app:tabTextAppearance="@style/TabLayoutText" app:tabTextColor="@color/color_000" />
+    <View android:background="@color/color_f5" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="8.0dip" />
+    <androidx.viewpager.widget.ViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

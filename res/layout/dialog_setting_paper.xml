@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/dialog_setting_paper_0" android:background="@drawable/bg_white_color_round_10" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/text_size_h1" android:textStyle="bold" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:layout_marginBottom="13.0dip" android:text="@string/settings" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/image_close" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="11.0dip" android:src="@drawable/ic_op_close" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:background="@color/color_f3f4f5" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:paddingBottom="28.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="14.0dip">
+        <LinearLayout android:background="@drawable/bg_white_color_round_10" android:paddingLeft="16.0dip" android:paddingTop="14.0dip" android:paddingRight="16.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:paddingHorizontal="16.0dip" android:paddingVertical="14.0dip">
+            <TextView android:textSize="@dimen/text_size_big" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_name" />
+            <EditText android:textSize="@dimen/text_size_big" android:textColor="@color/black" android:textColorHint="@color/color_666" android:gravity="right" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:hint="" android:lines="1" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/bg_white_color_round_10" android:paddingLeft="16.0dip" android:paddingTop="14.0dip" android:paddingRight="16.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:paddingHorizontal="16.0dip" android:paddingVertical="14.0dip">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/text_size_big" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/widthmm" />
+                <EditText android:textSize="@dimen/text_size_big" android:textColor="@color/black" android:textColorHint="@color/color_666" android:gravity="right" android:tag="binding_1" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:hint="50" android:lines="1" android:layout_weight="1.0" android:inputType="number" />
+            </LinearLayout>
+            <View android:background="@color/color_f3f4f5" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="13.0dip" android:layout_marginBottom="13.0dip" android:layout_marginVertical="13.0dip" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/text_size_big" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/heightmm" />
+                <EditText android:textSize="@dimen/text_size_big" android:textColor="@color/black" android:textColorHint="@color/color_666" android:gravity="right" android:tag="binding_2" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:hint="30" android:lines="1" android:layout_weight="1.0" android:inputType="number" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/bg_white_color_round_10" android:paddingLeft="16.0dip" android:paddingTop="14.0dip" android:paddingRight="16.0dip" android:paddingBottom="14.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:paddingHorizontal="16.0dip" android:paddingVertical="14.0dip">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/text_size_big" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="出纸方向" />
+                <EditText android:textSize="@dimen/text_size_big" android:textColor="@color/black" android:textColorHint="@color/color_666" android:gravity="right" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:hint="向下" android:lines="1" android:layout_weight="1.0" />
+            </LinearLayout>
+            <View android:background="@color/color_f3f4f5" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="13.0dip" android:layout_marginBottom="13.0dip" android:layout_marginVertical="13.0dip" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/text_size_big" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="耗材材质" />
+                <EditText android:textSize="@dimen/text_size_big" android:textColor="@color/black" android:textColorHint="@color/color_666" android:gravity="right" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:hint="热敏合成纸" android:lines="1" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <Button android:textSize="@dimen/text_size_larger" android:textStyle="bold" android:textColor="@color/white" android:tag="binding_3" android:background="@drawable/bg_00a3c8_color_round_10" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginTop="40.0dip" android:text="@string/ok" />
+    </LinearLayout>
+</LinearLayout>
